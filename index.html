@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NEMZIS Official Store</title>
+
+    <style>
+
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            color: #0000FF;
+            animation:
+                aparecer 2s ease forwards,
+                brillo 3s ease-in-out 2s infinite;
+
+            font-family: Georgia;
+            text-align: center;
+            font-size: 64px;
+            letter-spacing: 3px;
+        }
+
+        /* ANIMACIÓN DE ENTRADA */
+
+        @keyframes aparecer {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ANIMACIÓN DE BRILLO */
+
+        @keyframes brillo {
+            0%, 100% {
+                text-shadow:
+                    0 0 5px #FF2D95,
+                    0 0 10px #FF2D95;
+            }
+
+            50% {
+                text-shadow:
+                    0 0 15px #B026FF,
+                    0 0 35px #B026FF;
+            }
+        }
+
+        /* SUBTÍTULO */
+
+        .subtitulo {
+            color: #C0C0C0;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        /* DESCRIPCIÓN */
+
+        .descripcion {
+            color: #E6E6E6;
+            font-size: 18px;
+            line-height: 1.7;
+            text-align: center;
+            max-width: 700px;
+            margin: 30px auto;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>NEMZIS</h1>
+
+    <p class="subtitulo">
+        ELEGANCIA Y ESTILO EN UN SOLO LUGAR
+    </p>
+
+    <p class="descripcion">
+        En NEMZIS nos enfocamos en la comodidad de las prendas.
+        La calidad se siente en cada pieza que utilizas,
+        sobre todo cuando eliges tu prenda.
+        En NEMZIS nos encargamos de que luzcas con elegancia
+        y comodidad.
+    </p>
+
+</body>
+</html>
